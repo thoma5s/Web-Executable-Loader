@@ -44,11 +44,11 @@ animation: gradient 5s infinite;
 * { cursor: url(cursor.png) 10 8, default; }
 
 .leftbtn{
-margin-right:230px;
+margin-right:1%;
 }
 
 .rightbtn{
-margin-left:230px;
+margin-left:1%;
 }
 
 purpletext{
@@ -72,8 +72,10 @@ text-decoration:none;
 }
 
 under{
+position: absolute;
 padding-top: 100px;
 font-size: 13px;
+z-index: 0;
 }
 
 .title{
@@ -107,8 +109,8 @@ text-shadow: 0px 0px 3px #111;
     color: #fff;
     background: #111;
     cursor: cursor.png;
-    position: absolute;
-    z-index: 0;
+    position: relative;
+    z-index: 1;
     border-radius: 25px;
     transition:.3s;
 }
