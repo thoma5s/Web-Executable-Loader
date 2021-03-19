@@ -43,12 +43,42 @@ animation: gradient 5s infinite;
 	body { height: 100vh; }
 * { cursor: url(cursor.png) 10 8, default; }
 
+.topbtn{
+margin-bottom:15vh;
+}
+
 .leftbtn{
-margin-right:1%;
+margin-top:2vh;
+margin-right:25vh;
+}
+
+.leftbtn1{
+margin-top:18vh;
+margin-right:25vh;
+}
+
+.leftbtn2{
+margin-top:34vh;
+margin-right:25vh;
 }
 
 .rightbtn{
-margin-left:1%;
+margin-top:2vh;
+margin-left:25vh;
+}
+
+.rightbtn1{
+margin-top:18vh;
+margin-left:25vh;
+}
+
+.rightbtn2{
+margin-top:34vh;
+margin-left:25vh
+}
+
+.bottombtn{
+margin-top:50vh;
 }
 
 purpletext{
@@ -86,6 +116,14 @@ color:white;
 text-shadow: 0px 0px 3px #111;
 }
 
+.title1{
+position:absolute;
+text-align: center;
+top:25vh;
+color:white;
+text-shadow: 0px 0px 3px #111;
+}
+
 .description{
 position: absolute;
 text-align: center;
@@ -109,7 +147,7 @@ text-shadow: 0px 0px 3px #111;
     color: #fff;
     background: #111;
     cursor: cursor.png;
-    position: relative;
+    position: absolute;
     z-index: 1;
     border-radius: 25px;
     transition:.3s;
@@ -167,6 +205,69 @@ text-shadow: 0px 0px 3px #111;
    height: 50px;
    transition: .3s;
 }
+
+
+
+
+.glowtop {
+    font-family:"Baloo Tamma 2", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: 430px;
+    height: 40px;
+    box-shadow: 0px 0px 15px #111;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: cursor.png;
+    position: absolute;
+    z-index: 1;
+    border-radius: 25px;
+    transition:.3s;
+}
+
+.glowtop:before {
+    content: '';
+    background: linear-gradient(45deg, #594e87, #d5afff, #594e87, #d5afff, #594e87, #d5afff, #594e87, #ffffff);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(0.5px) brightness(1);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 25px;
+}
+
+.glowtop:before {
+    opacity: 1;
+}
+
+.glowtop:after {
+    box-shadow: inset 0 0 2px #111;
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #303052;
+    left: 0;
+    top: 0;
+    border-radius: 25px;
+}
+
+.glowtop:hover{
+   font-size: 20px;
+   width: 480px;
+   height: 50px;
+   transition: .3s;
+}
+
 
 @keyframes glowing {
     0% { background-position: 0 0; }
