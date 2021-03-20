@@ -47,6 +47,14 @@ animation: gradient 5s infinite;
 margin-bottom:15vh;
 }
 
+.mainleftbtn{
+margin-right:25vh;
+}
+
+.mainrightbtn{
+margin-left:25vh;
+}
+
 .leftbtn{
 margin-top:2vh;
 margin-right:25vh;
