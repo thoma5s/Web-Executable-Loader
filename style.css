@@ -1,0 +1,304 @@
+html,
+body {
+    font-family:"Baloo Tamma 2", sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+}
+
+body{color:#8A94A7;font-size:1rem}body,button,input,select,textarea{font-family:"Baloo Tamma 2", sans-serif}a{color:#8A94A7;text-decoration:underline}a:hover,a:active{outline:0;text-decoration:none}h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{clear:both;color:#fff;font-weight:600}h1,.h1{font-size:38px;line-height:48px;letter-spacing:0px}@media (min-width: 641px){h1,.h1{font-size:44px;line-height:54px;letter-spacing:0px}}h2,.h2{font-size:32px;line-height:42px;letter-spacing:0px}@media (min-width: 641px){h2,.h2{font-size:38px;line-height:48px;letter-spacing:0px}}h3,.h3,blockquote{font-size:24px;line-height:34px;letter-spacing:0px}@media (min-width: 641px){h3,.h3,blockquote{font-size:32px;line-height:42px;letter-spacing:0px}}h4,h5,h6,.h4,.h5,.h6{font-size:20px;line-height:30px;letter-spacing:-0.1px}@media (min-width: 641px){h4,h5,h6,.h4,.h5,.h6{font-size:24px;line-height:34px;letter-spacing:0px}}@media (max-width: 640px){.h1-mobile{font-size:38px;line-height:48px;letter-spacing:0px}.h2-mobile{font-size:32px;line-height:42px;letter-spacing:0px}.h3-mobile{font-size:24px;line-height:34px;letter-spacing:0px}.h4-mobile,.h5-mobile,.h6-mobile{font-size:20px;line-height:30px;letter-spacing:-0.1px}}.text-light h1,.text-light h2,.text-light h3,.text-light h4,.text-light h5,.text-light h6,.text-light .h1,.text-light .h2,.text-light .h3,.text-light .h4,.text-light .h5,.text-light .h6{color:!important}.text-sm{font-size:18px;line-height:30px;letter-spacing:-0.1px}.text-xs{font-size:16px;line-height:24px;letter-spacing:-0.1px}h1,h2,.h1,.h2{margin-top:48px;margin-bottom:16px}h3,.h3{margin-top:36px;margin-bottom:12px}h4,h5,h6,.h4,.h5,.h6{margin-top:24px;margin-bottom:4px}p{margin-top:0;margin-bottom:24px}dfn,cite,em,i{font-style:italic}blockquote{color:#3B404C;font-style:italic;margin-top:24px;margin-bottom:24px;margin-left:24px}blockquote::before{content:"\201C"}blockquote::after{content:"\201D"}blockquote p{display:inline}address{color:#8A94A7;border-width:1px 0;border-style:solid;border-color:#242830;padding:24px 0;margin:0 0 24px}pre,pre h1,pre h2,pre h3,pre h4,pre h5,pre h6,pre .h1,pre .h2,pre .h3,pre .h4,pre .h5,pre .h6{font-family:"Courier 10 Pitch", Courier, monospace}
+
+body {
+	background-color: #1e1b2b;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' x2='0' y1='1' y2='0' gradientTransform='rotate(17,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23594e87'/%3E%3Cstop offset='1' stop-color='%23231f36'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' x2='0' y1='0' y2='1' gradientTransform='rotate(15,0.5,0.5)'%3E%3Cstop offset='0' stop-color='%23594e87'/%3E%3Cstop offset='1' stop-color='%236b6887'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23FFF' fill-opacity='0' stroke-miterlimit='10'%3E%3Cg stroke='url(%23a)' stroke-width='8.91'%3E%3Cpath transform='translate(-7.7 -1.5999999999999999) rotate(-1.9 1409 581) scale(0.983964)' d='M1409 581 1450.35 511 1490 581z'/%3E%3Ccircle stroke-width='2.9700000000000006' transform='translate(-17 8) rotate(-0.6 800 450) scale(0.9979969999999999)' cx='500' cy='100' r='40'/%3E%3Cpath transform='translate(-2.4000000000000004 3) rotate(-9 401 736) scale(0.9979969999999999)' d='M400.86 735.5h-83.73c0-23.12 18.74-41.87 41.87-41.87S400.86 712.38 400.86 735.5z'/%3E%3C/g%3E%3Cg stroke='url(%23b)' stroke-width='2.7'%3E%3Cpath transform='translate(48 2.8) rotate(-0.7 150 345) scale(1.003988)' d='M149.8 345.2 118.4 389.8 149.8 434.4 181.2 389.8z'/%3E%3Crect stroke-width='5.940000000000001' transform='translate(1 -23) rotate(-14.400000000000002 1089 759)' x='1039' y='709' width='100' height='100'/%3E%3Cpath transform='translate(-14.4 1.6) rotate(-2.4000000000000004 1400 132) scale(0.97)' d='M1426.8 132.4 1405.7 168.8 1363.7 168.8 1342.7 132.4 1363.7 96 1405.7 96z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
+body{
+background-size: 102% 104%;
+animation: gradient 5s infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 0%;
+	}
+
+	50% {
+		background-position: 50% 50%;
+	}
+
+	100% {
+		background-position: 0% 0%;
+	}
+}
+
+	body { height: 100vh; }
+* { cursor: url(cursor.png) 10 8, default; }
+
+.topbtn{
+margin-bottom:15vh;
+}
+
+.mainleftbtn{
+margin-right:25vh;
+}
+
+.mainrightbtn{
+margin-left:25vh;
+}
+
+.leftbtn{
+margin-top:2vh;
+margin-right:25vh;
+}
+
+.leftbtn1{
+margin-top:18vh;
+margin-right:25vh;
+}
+
+.leftbtn2{
+margin-top:34vh;
+margin-right:25vh;
+}
+
+.leftbtn3{
+margin-top:50vh;
+margin-right:25vh;
+}
+
+.rightbtn{
+margin-top:2vh;
+margin-left:25vh;
+}
+
+.rightbtn1{
+margin-top:18vh;
+margin-left:25vh;
+}
+
+.rightbtn2{
+margin-top:34vh;
+margin-left:25vh
+}
+
+.rightbtn3{
+margin-top:50vh;
+margin-left:25vh
+}
+
+.bottombtn{
+margin-top:50vh;
+}
+
+purpletext{
+color:#7b6cba;
+}
+
+.link{
+color:white;
+text-decoration:none;
+}
+
+.link:hover{
+text-decoration:underline;
+}
+
+.tag{
+position:absolute;
+margin-top:45%;
+color:white;
+text-decoration:none;
+}
+
+under{
+position: absolute;
+margin-top: 100px;
+font-size: 13px;
+z-index: 0;
+}
+
+.title{
+position:absolute;
+text-align: center;
+top:31%;
+color:white;
+text-shadow: 0px 0px 3px #111;
+}
+
+.title1{
+position:absolute;
+text-align: center;
+top:25vh;
+color:white;
+text-shadow: 0px 0px 3px #111;
+}
+
+.description{
+position: absolute;
+text-align: center;
+font-weight: normal;
+top:42%;
+color:#7b6cba;
+max-width:325px;
+line-height: 140%;
+text-shadow: 0px 0px 3px #111;
+}
+
+.glow-on-hover {
+    font-family:"Baloo Tamma 2", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: 200px;
+    height: 40px;
+    box-shadow: 0px 0px 15px #111;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: cursor.png;
+    position: absolute;
+    z-index: 1;
+    border-radius: 25px;
+    transition:.3s;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #594e87, #d5afff, #594e87, #d5afff, #594e87, #d5afff, #594e87, #ffffff);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(0.5px) brightness(1);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 25px;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    box-shadow: inset 0 0 2px #111;
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #303052;
+    left: 0;
+    top: 0;
+    border-radius: 25px;
+}
+
+.glow-on-hover1:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #594e87;
+    left: 0;
+    top: 0;
+    border-radius: 25px;
+}
+
+.glow-on-hover:hover{
+   font-size: 20px;
+   width: 250px;
+   height: 50px;
+   transition: .3s;
+}
+
+
+
+
+.glowtop {
+    font-family:"Baloo Tamma 2", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    width: 430px;
+    height: 40px;
+    box-shadow: 0px 0px 15px #111;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: cursor.png;
+    position: absolute;
+    z-index: 1;
+    border-radius: 25px;
+    transition:.3s;
+}
+
+.glowtop:before {
+    content: '';
+    background: linear-gradient(45deg, #594e87, #d5afff, #594e87, #d5afff, #594e87, #d5afff, #594e87, #ffffff);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(0.5px) brightness(1);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 25px;
+}
+
+.glowtop:before {
+    opacity: 1;
+}
+
+.glowtop:after {
+    box-shadow: inset 0 0 2px #111;
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #303052;
+    left: 0;
+    top: 0;
+    border-radius: 25px;
+}
+
+.glowtop:hover{
+   font-size: 20px;
+   width: 480px;
+   height: 50px;
+   transition: .3s;
+}
+
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+a{
+	text-decoration:none;
+	text-align: center;
+	padding-top:15px;
+}
+
+div{
+margin-top:150px;
+}
