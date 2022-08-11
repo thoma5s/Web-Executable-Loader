@@ -1,0 +1,10 @@
+C:\Users\Fetix\Downloads\src\Web Executable Loader\obj\Debug\Loader.Properties.Resources.resources
+C:\Users\Fetix\Downloads\src\Web Executable Loader\obj\Debug\Web Executable Loader.csproj.GenerateResource.cache
+C:\Users\Fetix\Downloads\src\Web Executable Loader\obj\Debug\Web Executable Loader.csproj.CoreCompileInputs.cache
+C:\Users\Fetix\Downloads\src\Web Executable Loader\bin\Debug\Web Executable Loader.exe.config
+C:\Users\Fetix\Downloads\src\Web Executable Loader\bin\Debug\Web Executable Loader.exe
+C:\Users\Fetix\Downloads\src\Web Executable Loader\bin\Debug\Web Executable Loader.pdb
+C:\Users\Fetix\Downloads\src\Web Executable Loader\obj\Debug\Loader.Form1.resources
+C:\Users\Fetix\Downloads\src\Web Executable Loader\obj\Debug\Web Executable Loader.csproj.Fody.CopyLocal.cache
+C:\Users\Fetix\Downloads\src\Web Executable Loader\obj\Debug\Web Executable Loader.exe
+C:\Users\Fetix\Downloads\src\Web Executable Loader\obj\Debug\Web Executable Loader.pdb
